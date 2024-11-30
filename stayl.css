@@ -1,0 +1,113 @@
+/* universal stayle */
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding-left: 0px;
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+/* body stayle */
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header stayle */
+
+header {
+    padding-top: 30px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    gap: 20px;
+}
+
+header a {
+    color: #737373;
+}
+
+header a:hover {
+    color: blue;
+    transform: scale(1.1);
+    display: block;
+}
+
+/* intro stayle */
+
+.intro .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro .container img {
+    width: 40%;
+}
+
+.intro .informat {
+    width: 56%;
+}
+
+.intro .informat h1 {
+    font-size: 42px;
+    width: 600px;
+    font-weight: 600;
+}
+
+.intro .informat img {
+    width: 150px;
+}
+
+/* eva stayle */
+
+.eva {
+    margin: 100px 0px;
+}
+
+.eva h1 {
+    text-align: center;
+    font-size: 38px;
+}
+
+.eva .container .cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.eva .card {
+    width: 31%;
+    border-radius: 10px;
+    box-shadow: 0 19px 38px #737373, 0 15px 12px #737373;
+}
+
+.eva .card img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.eva h3 {
+    padding-left: 20px;
+}
+.eva .card p {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: #737373;
+    font-size: 15px;
+}
