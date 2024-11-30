@@ -111,3 +111,52 @@ header a:hover {
     color: #737373;
     font-size: 15px;
 }
+
+/* no container */
+
+.nocontainer .fatxer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background: linear-gradient(to right, rgba(212, 20, 90, 0.25), rgba(46, 49, 146, 0.25));
+}
+
+.nocontainer img {
+    position: absolute;
+    top: -80px;
+}
+.nocontainer .baby {
+    width: 31%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.nocontainer p {
+    background-color: white;
+    padding: 30px ;
+    padding-top: 60px;
+}
+
+/* foooter */
+
+footer {
+    padding: 50px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #737373;
+    font-size: 15px;
+}
