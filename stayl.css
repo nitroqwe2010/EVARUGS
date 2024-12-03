@@ -12,7 +12,7 @@ ul {
 .container {
     max-width: 1140px;
     margin: 0 auto;
-    padding: 0px 20px;
+    padding: 0px 60px;
 }
 
 /* body stayle */
@@ -57,7 +57,7 @@ header a:hover {
 }
 
 .intro .container img {
-    width: 40%;
+    width: 100%;
 }
 
 .intro .informat {
@@ -66,7 +66,7 @@ header a:hover {
 
 .intro .informat h1 {
     font-size: 42px;
-    width: 600px;
+    width: 100%;
     font-weight: 600;
 }
 
@@ -133,7 +133,7 @@ header a:hover {
     align-items: center;
     justify-content: center;
     position: relative;
-
+    text-align: center;
 }
 
 .nocontainer p {
@@ -159,4 +159,86 @@ footer p {
 footer a {
     color: #737373;
     font-size: 15px;
+}
+
+/* media planshet */
+
+@media ( max-width:1199px) {
+     header ul {
+        display: none;
+     }
+
+     .intro .container img {
+        width: 50%;
+     }
+
+     .informat {
+        width: 50%;
+     }
+
+     .eva .cards {
+        flex-wrap: wrap;
+     }
+
+     .eva .card {
+        width: 100%;
+        margin-bottom: 60px;
+     }
+
+     .eva h3 {
+        font-size: 42px;
+     }
+}
+
+@media ( max-width:766px) {
+    
+    header .container {
+        justify-content: center;
+    }
+
+    header img {
+        width: 200px;
+    }
+    
+    header ul {
+        display: none;
+    }
+
+    .intro img {
+        display: none;
+    }
+
+    .intro .informat {
+        width: 100%;
+        text-align: center;
+    }
+
+    .eva h1 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .eva .cards {
+        flex-wrap: wrap;
+    }
+
+    .eva .card {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .nocontainer .fatxer {
+        flex-wrap: wrap;
+
+    }
+
+    .nocontainer .baby {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    footer .container {
+        flex-wrap: wrap;
+        text-align: center;
+    }
 }
